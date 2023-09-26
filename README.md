@@ -2,85 +2,102 @@
 Welcome to the Git Command Reference Repository! This repository serves as a comprehensive guide to mastering Git version control through a collection of essential Git commands. Whether you're a beginner looking to get started or an experienced developer seeking a quick reference, this repository has you covered.
 
 Inside this repository, you'll find a carefully curated list of Git commands, each accompanied by explanations, examples, and best practices. With this resource at your fingertips, you can streamline your Git workflow, collaborate effectively with others, and troubleshoot common version control issues.<br><br><br>
-<table style="width: 100%;">
-  <tr>
-    <th>Command</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><b>git init</b></td>
-    <td>Initialize a new Git repository</td>
-  </tr>
-  <tr>
-    <td><b>git clone [repository]</b></td>
-    <td>Create a local copy of a remote repository</td>
-  </tr>
-  <tr>
-    <td><b>git add [file]</b></td>
-    <td>Add a file to the staging area</td>
-  </tr>
-  <tr>
-    <td><b>git commit -m [message]</b></td>
-    <td>Commit changes to the repository</td>
-  </tr>
-  <tr>
-    <td><b>git status</b></td>
-    <td>Show the status of the working directory</td>
-  </tr>
-  <tr>
-    <td><b>git push</b></td>
-    <td>Push changes to a remote repository</td>
-  </tr>
-  <tr>
-    <td><b>git pull</b></td>
-    <td>Fetch and merge changes from a remote repository</td>
-  </tr>
-  <tr>
-    <td><b>git branch</b></td>
-    <td>List, create, or delete branches</td>
-  </tr>
-  <tr>
-    <td><b>git checkout [branch]</b></td>
-    <td>Switch to a different branch</td>
-  </tr>
-  <tr>
-    <td><b>git merge [branch]</b></td>
-    <td>Combine changes from another branch</td>
-  </tr>
-  <tr>
-    <td><b>git log</b></td>
-    <td>Show commit history</td>
-  </tr>
-  <tr>
-    <td><b>git reset [commit]</b></td>
-    <td>Undo commits by moving the branch pointer</td>
-  </tr>
-  <tr>
-    <td><b>git remote add [name] [url]</b></td>
-    <td>Add a remote repository</td>
-  </tr>
-  <tr>
-    <td><b>git remote remove [name]</b></td>
-    <td>Remove a remote repository</td>
-  </tr>
-  <tr>
-    <td><b>git diff</b></td>
-    <td>Show changes between commits, branches, etc.</td>
-  </tr>
-  <tr>
-    <td><b>git stash</b></td>
-    <td>Save changes that can be reapplied later</td>
-  </tr>
-  <tr>
-    <td><b>git tag [name]</b></td>
-    <td>Create a lightweight tag for a commit</td>
-  </tr>
-  <tr>
-    <td><b>git fetch</b></td>
-    <td>Download objects and refs from a remote repository</td>
-  </tr>
-  <tr>
-    <td><b>git revert [commit]</b></td>
-    <td>Create a new commit that undoes a previous commit</td>
-  </tr>
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<table style="width: 100%; border-collapse: collapse;">
+    <tr>
+        <th>Command</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>git init</td>
+        <td>Initialize a new Git repository.</td>
+    </tr>
+    <tr>
+        <td>git clone [repository_url]</td>
+        <td>Clone a remote repository to your local machine.</td>
+    </tr>
+    <tr>
+        <td>git add [file(s)]</td>
+        <td>Add changes to the staging area.</td>
+    </tr>
+    <tr>
+        <td>git commit -m "[commit_message]"</td>
+        <td>Commit changes with a descriptive message.</td>
+    </tr>
+    <tr>
+        <td>git pull</td>
+        <td>Fetch changes from a remote repository and merge them into the current branch.</td>
+    </tr>
+    <tr>
+        <td>git push</td>
+        <td>Push committed changes to a remote repository.</td>
+    </tr>
+    <tr>
+        <td>git branch</td>
+        <td>List all branches in the repository.</td>
+    </tr>
+    <tr>
+        <td>git checkout [branch_name]</td>
+        <td>Switch to a different branch.</td>
+    </tr>
+    <tr>
+        <td>git merge [branch_name]</td>
+        <td>Merge changes from another branch into the current branch.</td>
+    </tr>
+    <tr>
+        <td>git status</td>
+        <td>Show the status of your working directory.</td>
+    </tr>
+    <tr>
+        <td>git log</td>
+        <td>View commit history.</td>
+    </tr>
+    <tr>
+        <td>git remote -v</td>
+        <td>List remote repositories associated with your local repository.</td>
+    </tr>
+    <tr>
+        <td>git remote add [name] [repository_url]</td>
+        <td>Add a remote repository with a specified name and URL.</td>
+    </tr>
+    <tr>
+        <td>git remote remove [name]</td>
+        <td>Remove a remote repository.</td>
+    </tr>
+    <tr>
+        <td>git fetch</td>
+        <td>Download objects and refs from another repository.</td>
+    </tr>
+    <tr>
+        <td>git diff</td>
+        <td>Show changes between commits, branches, or the working directory.</td>
+    </tr>
+    <tr>
+        <td>git reset [file(s)]</td>
+        <td>Unstage changes from the staging area.</td>
+    </tr>
+    <tr>
+        <td>git revert [commit]</td>
+        <td>Create a new commit that undoes changes made in a previous commit.</td>
+    </tr>
+    <tr>
+        <td>git stash</td>
+        <td>Temporarily save changes that are not ready for commit.</td>
+    </tr>
+    <tr>
+        <td>git tag [tag_name]</td>
+        <td>Create a lightweight tag for a specific commit.</td>
+    </tr>
+    <tr>
+        <td>git checkout -b [new_branch]</td>
+        <td>Create a new branch and switch to it.</td>
+    </tr>
 </table>
+
+</body>
+</html>
